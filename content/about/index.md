@@ -6,7 +6,6 @@ age: 33
 description: 'thius'
 ---
 
-Hi
 Hi, I'm Richard, a passionate front-end web developer with a love for creating engaging and user-friendly websites. With a strong foundation in HTML, CSS, and JavaScript, I'm constantly exploring the latest web technologies to bring fresh ideas and interactive experiences to the digital world.
 
 ## My Journey
