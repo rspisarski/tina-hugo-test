@@ -1,0 +1,18 @@
+{{ define "main" }}
+
+<main>
+    Single
+    <h1>{{ .Title }}</h1>
+    
+    {{ if .Date }}
+    <p>{{ .Date.Format "January 2, 2006" }}</p>
+    {{ end }}
+
+    <hr>
+
+    {{ .Content }}
+    
+</main>
+
+{{ end }}
+

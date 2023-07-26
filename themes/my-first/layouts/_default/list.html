@@ -1,0 +1,24 @@
+{{ define "main" }}
+<!-- Main content section for the list page -->
+<main class="main__list">
+
+    <h1>#{{ .Title }}</h1>
+
+    {{ .Content }}
+
+    <hr>
+
+    {{ if .Pages }}
+        <div class="article__grid">
+            {{ range .Pages }}
+            <!-- Display content summaries -->
+            <article class="article">
+                <h2 class="article__title"><a class="article__title__link" href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                <small class="article__date">.date { <span>published-on:</span> {{ .Date.Format "January 2, 2006" }} }</small>
+            </article>
+            {{ end }}
+        </div>
+    {{ end }}
+
+</main>
+{{ end }}
