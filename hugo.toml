@@ -1,4 +1,37 @@
-baseURL = 'http://localhost:1313/'
+baseURL = ''
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'my-first'
+
+# Automatically add content sections to main menu
+sectionPagesMenu = "main"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "resume"
+    name = "resume"
+    url = "/resume/"
+    weight = 10
+    slug = "resume"
+
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    url = "/about/"
+    weight = 10
+    slug = "about"
+
+  [[menu.main]]
+    identifier = "work"
+    name = "work"
+    url = "/work/"
+    weight = 10
+    slug = "work"
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "blog"
+    url = "/blog/"
+    weight = 10
+    slug = "blog"

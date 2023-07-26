@@ -3,10 +3,10 @@
         <a class="header__logo" href="/">#Richard Pisarski<span>.web-developer</span></a>
         <nav class="header__nav">
             <ul class="header__nav__menu">
-                <li class="header__nav__menu__item"><a class="header__nav__menu__item__link" href="/resume">.resume</a> </li>
-                <li class="header__nav__menu__item"><a class="header__nav__menu__item__link" href="/work">.work</a> </li>
-                <li class="header__nav__menu__item"><a class="header__nav__menu__item__link" href="/about">.about</a> </li>
-                <li class="header__nav__menu__item"><a class="header__nav__menu__item__link" href="/blog">.blog</a> </li>
+                {{ range $item := .Site.Menus.main }}
+                <li class="header__nav__menu__item"><a class="header__nav__menu__item__link" href="{{ $item.URL }}">.{{
+                        $item.Name }}</a></li>
+                {{ end }}
             </ul>
         </nav>
     </div>

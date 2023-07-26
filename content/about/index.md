@@ -1,5 +1,6 @@
 ---
 title: 'About'
+date: 2023-07-24
 person_name: 'Richard Pisarski'
 job: 'Front-End Web Developer'
 age: 33
@@ -9,7 +10,6 @@ description: 'thius'
 Hi, I'm Richard, a passionate front-end web developer with a love for creating engaging and user-friendly websites. With a strong foundation in HTML, CSS, and JavaScript, I'm constantly exploring the latest web technologies to bring fresh ideas and interactive experiences to the digital world.
 
 ## My Journey
-
 My journey as a web developer started during my college years when I tinkered with building my first static website. The process of turning ideas into tangible web pages fascinated me, and I knew I had found my calling. From there, I delved deeper into web development, learning about responsive design, CSS animations, and the intricacies of JavaScript.
 
 ## Skills
