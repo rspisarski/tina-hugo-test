@@ -1,2 +1,2 @@
-  - { name: "description", label: "Description", widget: "string" }
-  - { name: "keywords", label: "Keywords", widget: "string" }
+- { name: "description", label: "Description", widget: "string" }
+- { name: "keywords", label: "Keywords", widget: "string" }
