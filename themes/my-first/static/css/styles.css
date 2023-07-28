@@ -23,6 +23,9 @@ html { font-family: Consolas, 'Courier New', monospace; box-sizing: border-box; 
 body {
   font-size: 16px;
   line-height: 1.6;
+  min-height: 101vh;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Remove default margin */
@@ -31,6 +34,10 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 }
 
 p { margin: 0 0 14px; padding: 0;}
+
+pre { padding: 10px; }
+
+strong { color: var(--dark-yellow) }
 
 /* Remove default padding */
 h1, .h1 { font-family: 60px; margin-top: 0; }
@@ -93,7 +100,7 @@ h1 { font-size: 60px; color: var(--blue);}
 .article__date { color: var(--dark-yellow); }
 .article__date span { color: var(--gray); }
 
-.footer { border-top: 1px solid var(--lighter-dark); padding: 30px 20px 80px; text-align: center;}
+.footer { border-top: 1px solid var(--lighter-dark); padding: 30px 20px 80px; text-align: center; margin-top: auto;}
 
 main ul { margin: 20px 0 50px;}
 main ul li:before { content: '.'; color: var(--dark-yellow)}
