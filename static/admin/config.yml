@@ -29,30 +29,18 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Featured Image", name: "image", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
-  - name: "Pages" # Used in routes, e.g., /admin/collections/post
-    label: "pages" # Used in the UI
+  - name: "pages" # Used in routes, e.g., /admin/collections/post
+    label: "Pages" # Used in the UI
     files:
       - label: "About"
         name: "about"
-        file: "site/about/index.md"
+        file: "content/about/index.md"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Body, name: body, widget: markdown}
       - label: "Resume"
         name: "about"
-        file: "site/resume/index.md"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Body, name: body, widget: markdown}
-      - label: "Work"
-        name: "work"
-        file: "site/work/_index.md"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Body, name: body, widget: markdown}
-      - label: "Blog"
-        name: "blog"
-        file: "site/blog/_kindex.md"
+        file: "content/resume/index.md"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Body, name: body, widget: markdown}
