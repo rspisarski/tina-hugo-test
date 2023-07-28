@@ -48,7 +48,7 @@ collections:
   - name: "site_settings"
     label: "Site Settings"
     files:
-      - file: "site/data/footer.json"
+      - file: "data/footer.json"
         label: Footer
         name: footer
         fields:
