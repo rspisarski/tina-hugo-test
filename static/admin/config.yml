@@ -27,8 +27,10 @@ collections:
     fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Featured Image", name: "image", widget: "image" }
+      - { label: "Website Preview", name: "website_preview", widget: "image" }
+      - { label: "Website URL", name: "website_url", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Feature Post?", name: "featured_post", widget: "boolean", default: true }
   - name: "pages" # Used in routes, e.g., /admin/collections/post
     label: "Pages" # Used in the UI
     files:
