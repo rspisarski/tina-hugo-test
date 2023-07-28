@@ -59,7 +59,6 @@ collections:
         name: global
         fields:
           - {label: Logo, name: logo, widget: image}
-          - {label: Logo, name: logo, widget: image}
 widgets:
   - name: "seo_fields"
     label: "SEO Fields"
