@@ -45,12 +45,11 @@ collections:
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Body, name: body, widget: markdown}
-  - name: "site-settings" # Used in routes, e.g., /admin/collections/post
-    label: "Site Settings" # Used in the UI
-    files:
-      - label: "Footer"
-        name: "footer"
-        file: "themes/layouts/partials/footer.html"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Body, name: body, widget: markdown}
+  - name: "site_settings"
+      label: "Site Settings"
+      files:
+        - file: "site/data/footer.json"
+          label: Footer
+          name: footer
+          fields:
+            - {label: Title, name: title, widget: string}
