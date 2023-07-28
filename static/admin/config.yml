@@ -16,7 +16,7 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Featured Image", name: "image", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "SEO Metadata", name: "seo", widget: "file", file: "{{baseDir}}/data/seo_fields.yml" }
+      - { label: "SEO Metadata", name: "seo", widget: "file", file: "{{baseDir}}/static/admin/seo_fields.yml" }
   - name: "work" # Used in routes, e.g., /admin/collections/post
     label: "Work" # Used in the UI
     folder: "content/work" # The path to the folder where the documents are stored
