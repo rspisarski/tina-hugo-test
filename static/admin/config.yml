@@ -16,9 +16,10 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Featured Image", name: "image", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - label: Seo Metadata
+      - label: SEO Metadata
         name: seo_metadata
-        widget: list
+        widget: "object"
+        collapsed: true
         fields:
           - { label: Meta Title, name: meta_title, widget: string }
           - { label: Meta Description, name: meta_description, widget: string }
