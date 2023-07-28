@@ -39,7 +39,7 @@ collections:
           - {label: Title, name: title, widget: string}
           - {label: Body, name: body, widget: markdown}
       - label: "Resume"
-        name: "about"
+        name: "resume"
         file: "content/resume/index.md"
         fields:
           - {label: Title, name: title, widget: string}
