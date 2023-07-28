@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog Posts on My New Hugo Site</title>
+    <link>/blog/</link>
+    <description>Recent content in Blog Posts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 24 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git Commands</title>
+      <link>/blog/git-commands/</link>
+      <pubDate>Fri, 28 Jul 2023 11:18:21 -0400</pubDate>
+      
+      <guid>/blog/git-commands/</guid>
+      <description>Basic Git Commands .git-init
+Initializes a new Git repository in your project directory. This command sets up the necessary files and folders to start tracking changes.
+git init .git-clone
+Downloads a copy of an existing Git repository to your local machine. Replace [repository_url] with the URL of the GitHub repository you want to clone.
+git clone [repository_url] .git-add
+Adds changes made to a specific file to the staging area. Use this command to prepare files for the next commit.</description>
+    </item>
+    
+    <item>
+      <title>All About Blue Heelers: The Energetic and Intelligent Australian Cattle Dog</title>
+      <link>/blog/all-about-blue-heelers/</link>
+      <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/all-about-blue-heelers/</guid>
+      <description>If you&amp;rsquo;re looking for a loyal and hardworking canine companion, the Blue Heeler might just be the perfect breed for you. Also known as the Australian Cattle Dog (ACD), the Blue Heeler is a remarkable breed with a rich history of herding and working alongside Australian ranchers.
+Origins and History The Blue Heeler&amp;rsquo;s origins can be traced back to the early 19th century in Australia. It was developed to handle the challenging task of herding cattle over long distances in harsh and rugged terrains.</description>
+    </item>
+    
+  </channel>
+</rss>
