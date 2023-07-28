@@ -46,10 +46,10 @@ collections:
           - {label: Title, name: title, widget: string}
           - {label: Body, name: body, widget: markdown}
   - name: "site_settings"
-      label: "Site Settings"
-      files:
-        - file: "site/data/footer.json"
-          label: Footer
-          name: footer
-          fields:
-            - {label: Title, name: title, widget: string}
+    label: "Site Settings"
+    files:
+      - file: "site/data/footer.json"
+        label: Footer
+        name: footer
+        fields:
+          - {label: Title, name: title, widget: string}
