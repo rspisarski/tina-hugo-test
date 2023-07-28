@@ -2,7 +2,6 @@ backend:
   name: git-gateway
   branch: main
 media_folder: "static/images" # Folder where user uploaded files should go
-local_backend: true
 public_folder: "images"
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/post
@@ -43,6 +42,15 @@ collections:
       - label: "Resume"
         name: "resume"
         file: "content/resume/index.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Body, name: body, widget: markdown}
+            - name: "pages" # Used in routes, e.g., /admin/collections/post
+    label: "Site Settings" # Used in the UI
+    files:
+      - label: "Footer"
+        name: "footer"
+        file: "themes/layouts/partials/footer.html"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Body, name: body, widget: markdown}
