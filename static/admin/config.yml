@@ -45,7 +45,6 @@ collections:
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Body, name: body, widget: markdown}
-            - name: "pages" # Used in routes, e.g., /admin/collections/post
     label: "Site Settings" # Used in the UI
     files:
       - label: "Footer"
