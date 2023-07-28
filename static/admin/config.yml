@@ -21,7 +21,7 @@ collections:
         name: "seo" # This is an arbitrary field name
         widget: "object"
         fields: 
-          - { label: "SEO Metadata", name: "seo", widget: "file", file: "static/admin/seo_fields.yml" }
+          - { label: "SEO Metadata", name: "seo_metadata", widget: "file", file: "static/admin/seo_fields.yml" }
       # Other fields specific to your "Blog" collection
   - name: "work" # Used in routes, e.g., /admin/collections/post
     label: "Work" # Used in the UI
