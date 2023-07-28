@@ -17,7 +17,11 @@ collections:
       - { label: "Featured Image", name: "image", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
       # Reference the SEO fields from seo_fields.yml
-      - <<: *seo_fields
+      - label: "SEO"
+        name: "seo" # This is an arbitrary field name
+        widget: "object"
+        fields: 
+          - { label: "SEO Metadata", name: "seo", widget: "file", file: "static/admin/seo_fields.yml" }
       # Other fields specific to your "Blog" collection
   - name: "work" # Used in routes, e.g., /admin/collections/post
     label: "Work" # Used in the UI
