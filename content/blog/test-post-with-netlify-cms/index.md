@@ -7,5 +7,5 @@ image: razer-blackshark-v2-pro-audio.png
 
 Take a look at this picture I posted
 
--﻿ item 1
--﻿ item 2
+-﻿item
+-﻿item 2
