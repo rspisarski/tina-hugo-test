@@ -1,4 +1,4 @@
-baseURL = ''
+baseURL = 'https://astounding-narwhal-f5aab3.netlify.app/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'my-first'
