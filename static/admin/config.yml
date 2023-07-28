@@ -5,8 +5,7 @@ media_folder: "static/images" # Folder where user uploaded files should go
 public_folder: "images"
 # This is the reusable YAML alias for SEO fields
 seo_fields: &seo_fields
-  - { name: "description", label: "Description", widget: "string" }
-  - { name: "keywords", label: "Keywords", widget: "string" }
+
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/post
     label: "Blog" # Used in the UI
@@ -20,7 +19,7 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Featured Image", name: "image", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
-      # Include the SEO fields template
+      # Reference the SEO fields from seo_fields.yml
       - <<: *seo_fields
       # Other fields specific to your "Blog" collection
   - name: "work" # Used in routes, e.g., /admin/collections/post
