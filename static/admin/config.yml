@@ -3,6 +3,10 @@ backend:
   branch: main
 media_folder: "static/images" # Folder where user uploaded files should go
 public_folder: "images"
+# This is the reusable YAML alias for SEO fields
+seo_fields: &seo_fields
+  - { name: "description", label: "Description", widget: "string" }
+  - { name: "keywords", label: "Keywords", widget: "string" }
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/post
     label: "Blog" # Used in the UI
@@ -16,6 +20,9 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Featured Image", name: "image", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
+      # Include the SEO fields template
+      - <<: *seo_fields
+      # Other fields specific to your "Blog" collection
   - name: "work" # Used in routes, e.g., /admin/collections/post
     label: "Work" # Used in the UI
     folder: "content/work" # The path to the folder where the documents are stored
@@ -53,3 +60,9 @@ collections:
         name: footer
         fields:
           - {label: Title, name: title, widget: string}
+      - file: "data/globals.json"
+        label: Globals
+        name: global
+        fields:
+          - {label: Logo, name: logo, widget: image}
+          - {label: Logo, name: logo, widget: image}
